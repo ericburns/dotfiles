@@ -20,3 +20,4 @@ let python_highlight_all = 1
 
 " Theme
 set background=dark
+colorscheme solarized
