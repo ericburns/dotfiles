@@ -24,6 +24,10 @@ cd $BUNDLE_DIR
 echo Installing sensible.vim
 [ ! -d $BUNDLE_DIR/vim-sensible ] && git clone git://github.com/tpope/vim-sensible.git
 
+# Syntax extra
+echo Installing vim-syntax-extra c, bison, flex syntax highlighting
+[ ! -d $BUNDLE_DIR/vim-syntax-extra ] && git clone https://github.com/justinmk/vim-syntax-extra.git
+
 # Nerdtree
 echo Installing nerdtree
 [ ! -d $BUNDLE_DIR/nerdtree ] && git clone https://github.com/scrooloose/nerdtree.git
