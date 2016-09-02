@@ -37,8 +37,8 @@ echo Installing ctrlp
 [ ! -d $BUNDLE_DIR/ctrlp.vim ] && git clone https://github.com/ctrlpvim/ctrlp.vim.git
 
 # Jedi
-echo Installing jedi
-[ ! -d $BUNDLE_DIR/jedi-vim ] && git clone --recursive https://github.com/davidhalter/jedi-vim.git
+# echo Installing jedi
+# [ ! -d $BUNDLE_DIR/jedi-vim ] && git clone --recursive https://github.com/davidhalter/jedi-vim.git
 
 # Solarized theme
 echo Installing solarized theme
